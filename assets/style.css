@@ -1,0 +1,169 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.clear {
+    clear: both;
+}
+
+.main {
+    width: 100%;
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-1 {
+    width: 869px;
+    height: 644px;
+    background: linear-gradient(to top right, #24436a, #6ec56a);
+    color: #fff;
+    padding: 60px 85px;
+}
+
+.header-title  {
+    font-size: 26px;
+    text-align: left;
+    border-bottom: 2px solid #fff;
+    margin-bottom: 70px;
+}
+
+.header-title h3 {
+    padding: 12px 0;
+}
+
+.input-name, .input-phone {
+    text-align: left;
+    width: 49%;
+    border-bottom: 1px solid #fff;
+
+}
+
+.input-name-area::placeholder, .input-phone-area::placeholder {
+    font-size: 20px;
+}
+
+.input-name {
+    float: left;
+}
+
+.input-phone {
+    float: right;
+}
+.icon-input-name, .icon-input-phone {
+    width: 28px;
+    height: 28px;
+}
+
+.form-control {
+    padding: 8px;
+    font-size: 24px;
+    background: rgba(0,0,0,0);
+    border: none;
+    color: #fff;
+
+}
+
+.form-control:focus {
+    outline: none;
+    opacity: 0.7;
+
+}
+
+.form-control::placeholder {
+    font-size: 20px;
+}
+
+.input-name-area, .input-phone-area {
+    font-size: 24px;
+    background: rgba(0,0,0,0);
+    border: none;
+    padding: 8px 0;
+    color: #fff;
+}
+
+.input-name-area:focus, .input-phone-area:focus {
+    outline: none;
+    opacity: 0.7;
+}
+.input-name-area::placeholder, .input-phone-area::placeholder, .form-control::placeholder {
+    color: #fff;
+}
+
+.input-email {
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+    border-bottom: 2px solid #fff;
+}
+
+.icon-input-email {
+    font-size: 16px;
+
+}
+.email-title {
+    height: 45px;
+    font-size: 20px;
+    margin-top: 20px;
+    border-bottom: 2px solid #fff;
+
+}
+
+.icon-email-title {
+    font-size: 20px;
+}
+.input-email-content {
+    margin-top: 30px;
+    position: relative;
+    border-bottom: 2px solid #fff;
+    
+}
+
+.input-email-content textarea {
+    width: 666px;
+    height: 116px;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    float: right;
+    color: #fff;
+    font-size: 24px;
+}
+
+.input-email-content textarea::placeholder {
+    color: #fff;
+    font-size: 20px;
+}
+
+.input-email-content textarea:focus {
+    outline: none;
+    opacity: 0.7;
+
+}
+
+.icon-email-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.btn {
+    text-align: center;
+    margin-top: 38px;
+}
+
+.btn-send {
+    font-size: 23px;
+    padding: 12px 24px;
+    color: #fff;
+    background-color: #4d734f;
+    border: 1px solid #fff;
+    text-transform: uppercase;
+}
+
+.btn-send:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
